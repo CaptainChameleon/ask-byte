@@ -1,0 +1,180 @@
+{% extends "./base.html" %}
+{% block meta %}
+<meta name="description" content="¡Hola! Soy Byte, soy un chatbot. Me gusta el origami. Ojalá tuviera manos... :(">
+<meta name="keywords" content="Byte, Chatbot, Asistente, Estudio">
+{% endblock %}
+
+{% block title %}AskByte!{% endblock %}
+
+{% load static %}
+
+{% block menu %}
+    <a href="#about">¿Byte?</a>
+    <a href="#availability">Disponibilidad</a>
+    <a href="#instructions">Colaborar</a>
+    <a href="#contact">Contacto</a>
+{% endblock %}
+
+{% block main %}
+<section id="about" class="primary">
+    <div class="section-content">
+        <div class="section-header">
+            <h2>¿Byte?</h2>
+            <div class="byte-avatar">
+                <div class="chat-bubble left-down">
+                    <div class="chat-bubble-content">
+                        <p>¡Ese soy yo!</p>
+                    </div>
+                </div>
+                <img src="{% static 'ask_byte/Images/Byte.svg' %}">
+            </div>
+        </div>
+        <div class="chat-bubble right-down no-border">
+            <div class="chat-bubble-content">
+                <p>¡Hola! Me llamo Byte y soy un <a href="https://es.wikipedia.org/wiki/Bot_conversacional">bot conversacional</a>, también conocido como <i>chatbot</i>.</p>
+                <p>He sido programado para <span class="stroke">¡dominar el mundo!</span> asistir al estudiantado de la asignatura <a href="https://www2.ulpgc.es/index.php?pagina=plan_estudio&ver=pantalla&numPantalla=99&nCodAsignatura=40825&codTitulacion=4008&codPlan=40&tipotitulacion=G&codEspecialidad=">Fundamentos de los Sistemas Inteligentes</a> del Grado en Ingeniería Informática de la ULPGC.</p>
+            </div>
+        </div>
+        <div class="chat-bubble right-down no-border">
+            <div class="chat-bubble-content">
+                <p><b>¿Cuáles serán mis funciones como asistente?</b></p>
+                <p>Pues bien, en principio utilizaré mis <b>increíbles habilidades</b> para resolver cualquier consulta que se os ocurra referente a los aspectos organizativos de la asignatura. ¡Cualquiera!</p>
+                <p>¡Es posible que, en el futuro, incluso sea capaz de ayudaros en el estudio de la misma! ¡No habrá duda de última hora que no pueda destruir!</p>
+            </div>
+        </div>
+        <div class="chat-bubble right-down no-border">
+            <div class="chat-bubble-content">
+                <p>Ejemplos de tales consultas pueden ser preguntas como:</p>
+                <p class="cite">¿Qué día es el examen?</p>
+                <p class="cite">¿Me puedo cambiar de grupo?</p>
+                <p class="cite">¿Es posible aprobar esto?</p>
+                <p class="cite">¿Cuándo hay que entregar las prácticas?</p>
+            </div>
+        </div>
+        <div class="chat-bubble right-down no-border">
+            <div class="chat-bubble-content">
+                <p><b>¿Cómo puedes colaborar?</b></p>
+                <p>Para poder cumplir con mi misión necesito ser capaz de entender el enrevesado y pseudo-caótico lenguaje que empleáis los humanos.</p>
+                <p>¡Nadie mejor que ellos mismos para ayudarme en esta misión!</p>
+            </div>
+        </div>
+        <div class="chat-bubble right-down no-border">
+            <div class="chat-bubble-content">
+                <p>Utilizaré tus aportaciones para entrenarme en el pequeño dominio del lenguaje orgánico destinado a mis funciones. Además, me servirá para hacerme una mejor idea de las dudas que afliglen al <i>homo academicus</i> que puebla esta asignatura.</p>
+            </div>
+        </div>
+        <div class="chat-bubble right-down no-border">
+            <div class="chat-bubble-content">
+                <p><b>¿Deseas ayudarme?</b></p>
+                <p><b>¡Solo tienes que hacer un poco de <i>scroll</i> y enviarme todas las consultas que se te ocurran!</b></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="availability" class="primary">
+    <div class="section-header">
+        <h2>Me podrás encrontrar en:</h2>
+    </div>
+    <div class="section-content">
+        <div class="integration-slider">
+            <div class="logo-container">
+                <img src="{% static 'ask_byte/Images/Telegram.svg' %}" width="32" height="32">
+            </div>
+            <div class="integration-code">
+                <p>@FSI_Chatbot</p>
+            </div>
+        </div>
+        <div class="integration-slider">
+            <div class="logo-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 39 39"><path fill="#00E676" d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z"></path><path fill="#FFF" d="M32.4 6.4C29 2.9 24.3 1 19.5 1 9.3 1 1.1 9.3 1.2 19.4c0 3.2.9 6.3 2.4 9.1L1 38l9.7-2.5c2.7 1.5 5.7 2.2 8.7 2.2 10.1 0 18.3-8.3 18.3-18.4 0-4.9-1.9-9.5-5.3-12.9zM19.5 34.6c-2.7 0-5.4-.7-7.7-2.1l-.6-.3-5.8 1.5L6.9 28l-.4-.6c-4.4-7.1-2.3-16.5 4.9-20.9s16.5-2.3 20.9 4.9 2.3 16.5-4.9 20.9c-2.3 1.5-5.1 2.3-7.9 2.3zm8.8-11.1l-1.1-.5s-1.6-.7-2.6-1.2c-.1 0-.2-.1-.3-.1-.3 0-.5.1-.7.2 0 0-.1.1-1.5 1.7-.1.2-.3.3-.5.3h-.1c-.1 0-.3-.1-.4-.2l-.5-.2c-1.1-.5-2.1-1.1-2.9-1.9-.2-.2-.5-.4-.7-.6-.7-.7-1.4-1.5-1.9-2.4l-.1-.2c-.1-.1-.1-.2-.2-.4 0-.2 0-.4.1-.5 0 0 .4-.5.7-.8.2-.2.3-.5.5-.7.2-.3.3-.7.2-1-.1-.5-1.3-3.2-1.6-3.8-.2-.3-.4-.4-.7-.5h-1.1c-.2 0-.4.1-.6.1l-.1.1c-.2.1-.4.3-.6.4-.2.2-.3.4-.5.6-.7.9-1.1 2-1.1 3.1 0 .8.2 1.6.5 2.3l.1.3c.9 1.9 2.1 3.6 3.7 5.1l.4.4c.3.3.6.5.8.8 2.1 1.8 4.5 3.1 7.2 3.8.3.1.7.1 1 .2h1c.5 0 1.1-.2 1.5-.4.3-.2.5-.2.7-.4l.2-.2c.2-.2.4-.3.6-.5s.4-.4.5-.6c.2-.4.3-.9.4-1.4v-.7s-.1-.1-.3-.2z"></path></svg>
+            </div>
+            <div class="integration-code">
+                <p>Próximamente...</p>
+            </div>
+        </div>
+        <div class="integration-slider">
+            <div class="logo-container">
+                <img src="{% static 'ask_byte/Images/Discord.svg' %}" width="32" height="32">
+            </div>
+            <div class="integration-code">
+                <p>Próximamente...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="training" class="primary">
+    <div class="section-header">
+        <div class="byte-avatar">
+            <img src="{% static 'ask_byte/Images/Byte.svg' %}" width="100" height="100">
+        </div>
+        <div class="chat-bubble down no-border">
+            <div class="chat-bubble-content">
+                <h2>¡Ayúdame a entrenar!</h2>
+            </div>
+        </div>
+    </div>
+    <div class="section-content">
+        {% if category_tree %}
+            <section id="instructions" class="tooltip">
+                <div class="section-header">
+                    <h3>Instrucciones</h3>
+                </div>
+                <div class="section-content">
+                    <div class="text-wrapper">
+                        <p>Selecciona una categoría y escribe cualquier pregunta o solicitud que se te ocurra y esté relacionada. Imagina que estás hablando con un profesor o un compañero.</p>
+                        <p>No te preocupes por la ortografía ni por emplear una redacción correcta. De hecho, serían deseables aportaciones con fallos o que empleen un lenguaje más coloquial.</p>
+                        <p>Por ejemplo:</p>
+                        <p class="cite">la npta de praticas se guarda?</p>
+                        <p>Aporta más información útil que:</p>
+                        <p class="cite">¿La nota de prácticas se guarda?</p>
+                        <p><u>Si tienes alguna consulta que te gustaría que sepa responder y no encuentras una categoría donde ubicarla no dudes en enviárlmela usando la categoría "Otros".</u></p>
+                    </div>
+                </div>
+            </section>
+            <section id="collaboration" class="subsection">
+                <div class="section-content">
+                    <div id="category-tree" >
+                        <div class="collapsible-tree-utils">
+                            <span id="collapse-all-button" class="button">Expandir todo</span>
+                        </div>
+                        {% autoescape off %}
+                            {{ category_tree }}
+                        {% endautoescape %}
+                    </div>
+                    <form id="user-question-form" action="{% url 'question-input' %}" method="post">
+                        {% csrf_token %}
+                        <input type="hidden" name="question-cat">
+                        <div id="user-question-visible">
+                            <div id="question-input">
+                                <input type="text" name="question-text" placeholder="Ask Byte!">
+                                <span id="send-button" class="button">Enviar ></span>
+                            </div>
+                            <div id="question-input-status">
+                                <div class="chat-bubble mini right no-border">
+                                    <div class="chat-bubble-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        {% else %}
+            <div><p>No Questions are available.</p></div>
+        {% endif %}
+    </div>
+</section>
+
+<section id="contact" class="primary">
+    <div class="section-header">
+        <h2>Contacto</h2>
+    </div>
+    <div class="section-content">
+        <a href="mailto:byte.mcbit@gmail.com">byte.mcbit@gmail.com</a>
+    </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{% static '/ask_byte/Scripts/script.js' %}"></script>
+{% endblock %}
