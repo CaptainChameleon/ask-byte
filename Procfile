@@ -1,1 +1,1 @@
-web: gunicorn Byte.wsgi.application --log-file -
+web: gunicorn Byte.wsgi --log-file -
