@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2782696-0b1e-4abc-9513-ef45a0917f2f" name="Default Changelist" comment="" />
+    <list default="true" id="d2782696-0b1e-4abc-9513-ef45a0917f2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Byte/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Byte/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Byte/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="70" column="41" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="41" />
+            <state relative-caret-position="396">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
             </state>
           </provider>
         </entry>
@@ -138,8 +140,8 @@
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html" />
         <option value="$PROJECT_DIR$/ask_byte/views.py" />
         <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" />
-        <option value="$PROJECT_DIR$/Byte/settings.py" />
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html" />
+        <option value="$PROJECT_DIR$/Byte/settings.py" />
       </list>
     </option>
   </component>
@@ -161,6 +163,11 @@
             <path>
               <item name="Byte" type="b2602c69:ProjectViewProjectNode" />
               <item name="Byte" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Byte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Byte" type="462c0819:PsiDirectoryNode" />
+              <item name="ask_byte" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -476,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Byte/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="70" column="41" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="41" />
+        <state relative-caret-position="396">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
         </state>
       </provider>
     </entry>
