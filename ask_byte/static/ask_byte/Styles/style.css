@@ -292,14 +292,13 @@ main a:hover:before {
     min-height: 75em;
     padding: 0;
     background-color: #037cf4ff;
-
     position: relative;
     overflow: hidden;
 }
 
 #about .section-content > .chat-bubble {
     max-width: 32.5em;
-    margin-top: 2.75em;
+    margin-top: 2em;
     margin-left: 40em;
 }
 
