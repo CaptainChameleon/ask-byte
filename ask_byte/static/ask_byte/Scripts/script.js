@@ -10,8 +10,7 @@ $("#about .section-content > .chat-bubble").each(function(){
     y = $this.position().top;
 
     if (y < 0) {
-        console.log($this.css("margin-top"));
-        y = $this.css("margin-top");
+        y = parseFloat($this.css("margin-top"));
     }
 
     y += $this.height();
