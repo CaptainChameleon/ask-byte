@@ -22,11 +22,19 @@ class CustomAdminSite(admin.AdminSite):
         categories = QuestionCategory.objects.all().values()
         user_questions = UserQuestion.objects.all().values()
 
-        categories_csv = generate_temp_csv_from_queryset_values(categories)
-        user_questions_csv = generate_temp_csv_from_queryset_values(user_questions)
+        filenames = list()
+        filecontents = list()
 
-        dataset = generate_temp_zipfile(['categories.csv', 'user_questions.csv'],
-                                        [categories_csv.read(), user_questions_csv.read()])
+        if len(categories) > 0:
+            categories_csv = generate_temp_csv_from_queryset_values(categories)
+            filenames.append('categories.csv')
+            filecontents.append(categories_csv.read())
+        if len(user_questions) > 0:
+            user_questions_csv = generate_temp_csv_from_queryset_values(user_questions)
+            filenames.append('user_questions.csv')
+            filecontents.append(user_questions_csv.read())
+
+        dataset = generate_temp_zipfile(filenames, filecontents)
 
         response = HttpResponse(dataset.read(), content_type='application/zip')
         response['Content-Disposition'] = 'attachment; filename="ask_byte_data.zip"'

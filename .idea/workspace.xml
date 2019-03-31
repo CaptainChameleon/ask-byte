@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2782696-0b1e-4abc-9513-ef45a0917f2f" name="Default Changelist" comment="" />
+    <list default="true" id="d2782696-0b1e-4abc-9513-ef45a0917f2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ask_byte/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/admin.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Byte/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="131" column="37" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
+            <state relative-caret-position="425">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -33,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ask_byte/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="221">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -86,6 +88,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="753">
               <caret line="62" column="151" selection-start-line="62" selection-start-column="151" selection-end-line="62" selection-end-column="151" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ask_byte/file_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,14 +158,14 @@
         <option value="$PROJECT_DIR$/templates/admin/ask_byte/app_index.html" />
         <option value="$PROJECT_DIR$/ask_byte/file_format_utils.py" />
         <option value="$PROJECT_DIR$/ask_byte/file_utils.py" />
-        <option value="$PROJECT_DIR$/ask_byte/admin.py" />
         <option value="$PROJECT_DIR$/ask_byte/view_utils.py" />
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html" />
         <option value="$PROJECT_DIR$/ask_byte/views.py" />
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html" />
-        <option value="$PROJECT_DIR$/Byte/settings.py" />
         <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" />
         <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" />
+        <option value="$PROJECT_DIR$/Byte/settings.py" />
+        <option value="$PROJECT_DIR$/ask_byte/admin.py" />
       </list>
     </option>
   </component>
@@ -431,36 +445,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/file_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Byte/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="131" column="37" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="62" column="151" selection-start-line="62" selection-start-column="151" selection-end-line="62" selection-end-column="151" />
         </state>
       </provider>
     </entry>
@@ -488,10 +478,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Byte/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask_byte/file_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="62" column="151" selection-start-line="62" selection-start-column="151" selection-end-line="62" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ask_byte/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="221">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
