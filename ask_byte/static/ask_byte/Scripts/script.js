@@ -8,7 +8,7 @@ $("#about .section-content > .chat-bubble").each(function(){
     var x, y;
 
     y = $this.position().top + $this.height();
-    x = Math.sqrt(y*height - Math.pow(y, 2)) + 16*2;
+    x = Math.sqrt(y*height - Math.pow(y, 2)) + 16*4;
 
     $this.css("margin-left", x + "px");
 });
@@ -35,9 +35,10 @@ $("#availability .integration-slider").mouseleave(function(){
     var integrationCode = $(this).find(".integration-code");
     integrationCode.animate({
         "width": "3.99em",
-        "padding-left": "0em"
+        "padding-left": "0em",
+        "opacity": "0"
         }, 400);
-    integrationCode.css("opacity", 0);
+    //integrationCode.css("opacity", 0);
 });
 
 // ---------------------------------------------------------------- Byte Training
