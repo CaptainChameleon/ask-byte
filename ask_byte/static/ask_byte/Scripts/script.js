@@ -8,11 +8,11 @@ $("#about .section-content > .chat-bubble").each(function(){
     var x, y;
 
     console.log($this.position().top);
-    
+
     y = $this.position().top + $this.height();
     x = Math.sqrt(y*height - Math.pow(y, 2));
 
-    $this.css("margin-left", x + 16*4 + "px");
+    $this.css("margin-left", x + 16*6 + "px");
 });
 
 // ---------------------------------------------------------------- Availability
