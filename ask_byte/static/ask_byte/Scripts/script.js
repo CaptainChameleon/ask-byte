@@ -4,13 +4,13 @@
 //$("body").children().css( "maxWidth", screen.width + "px" );
 $("#about .section-content > .chat-bubble").each(function(){
     var $this = $(this);
-    var height = $this.parent().height();
+    var height = $this.parent().find(".section-header").height();
     var x, y;
 
     y = $this.position().top + $this.height();
-    x = Math.sqrt(y*height - Math.pow(y, 2)) / 16;
+    x = Math.sqrt(y*height - Math.pow(y, 2));
 
-    $this.css("margin-left", x + 2 + "em");
+    $this.css("margin-left", x + "px");
 });
 
 // ---------------------------------------------------------------- Availability
