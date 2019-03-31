@@ -7,18 +7,26 @@ $("#about .section-content > .chat-bubble").each(function(){
     var height = $this.parent().find(".section-header").height();
     var x, y;
 
-    y = $this.position().top;
-
-    if (y < 0) {
-        y = parseFloat($this.css("margin-top"));
-    }
-
-    y += $this.height();
+    y = $this.position().top + $this.height();
 
     x = Math.sqrt(y*height - Math.pow(y, 2));
 
     $this.css("margin-left", x + 16*4 + "px");
 });
+
+/*
+$("#about .section-content > div.chat-bubble:nth-of-type(2)").each(function(){
+    var $this = $(this);
+    var height = $this.parent().find(".section-header").height();
+    var x, y;
+
+    y = parseFloat($this.css("margin-top")) + $this.height();
+
+    x = Math.sqrt(y*height - Math.pow(y, 2));
+
+    $this.css("margin-left", x + 16*4 + "px");
+});
+*/
 
 // ---------------------------------------------------------------- Availability
 
