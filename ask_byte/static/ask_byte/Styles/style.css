@@ -263,10 +263,6 @@ main a:before {
     width: 0%;
     height: 2px;
     content: '';
-    /*
-    transform: scaleX(0);
-    -webkit-transform: scaleX(0);
-    */
     transition: width 0.3s ease-in-out 0s;
     -webkit-transition: width 0.3s ease-in-out 0s;
 }
@@ -274,10 +270,6 @@ main a:before {
 main a:hover:before {
     background-color: #037cf4ff;
     width: 100%;
-    /*
-    transform: scaleX(1);
-    -webkit-transform: scaleX(1);
-    */
 }
 
 /*  -------------- About Section  --------------- */
@@ -289,11 +281,16 @@ main a:hover:before {
 #about .section-content {
     display: block;
     width: 100%;
-    min-height: 75em;
-    padding: 0;
     background-color: #037cf4ff;
     position: relative;
     overflow: hidden;
+}
+
+/* -------------------------------------------------------------- DESKTOP !! --------------------- */
+
+#about .section-content {
+    min-height: 75em;
+    padding: 0;
 }
 
 #about .section-content > .chat-bubble {
@@ -303,13 +300,9 @@ main a:hover:before {
 }
 
 #about .section-content > div.chat-bubble:nth-of-type(2) {
-    margin-top: 5%;
+    margin-top: 5.5em;
 }
 
-#about .section-content > div.chat-bubble:last-of-type {
-    margin-bottom: 5%;
-}
-/* -------------------------------------------------------------- DESKTOP !! --------------------- */
 #about .section-header {
     position: absolute;
     top: 50%;
