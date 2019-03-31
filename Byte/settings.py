@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'Byte.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #    'ENGINE': 'django.db.backends.sqlite3',
-    #    'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
-    'default': dj_database_url.config(default='postgres://gtmtzvzlvjgfcp:9d77f8b1b0584c2f3f11644b99a39fffba044a1f98ebe6590bee2e0ec5abb813@ec2-54-247-70-127.eu-west-1.compute.amazonaws.com:5432/de0on80p91a9kk')
+    'default': {
+       'ENGINE': 'django.db.backends.sqlite3',
+       'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+    # 'default': dj_database_url.config(default='postgres://gtmtzvzlvjgfcp:9d77f8b1b0584c2f3f11644b99a39fffba044a1f98ebe6590bee2e0ec5abb813@ec2-54-247-70-127.eu-west-1.compute.amazonaws.com:5432/de0on80p91a9kk')
 }
 
 

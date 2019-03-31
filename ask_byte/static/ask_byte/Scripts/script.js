@@ -1,7 +1,7 @@
 
 // ---------------------------------------------------------------- About
 
-$("body").children().css( "maxWidth", window.width + "px" );
+//$("body").children().css( "maxWidth", screen.width + "px" );
 
 $("#about .section-content > .chat-bubble").each(function(){
     var $this = $(this);
@@ -12,7 +12,7 @@ $("#about .section-content > .chat-bubble").each(function(){
 
     x = Math.sqrt(y*height - Math.pow(y, 2));
 
-    $this.css("margin-left", x + 16*5 + "px");
+    $this.css("margin-left", x + 16*5.5 + "px");
 });
 
 // ---------------------------------------------------------------- Availability
