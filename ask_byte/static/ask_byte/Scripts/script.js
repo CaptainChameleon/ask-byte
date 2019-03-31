@@ -7,7 +7,7 @@ $("#about .section-content > .chat-bubble").each(function(){
     var height = $this.parent().find(".section-header").height();
     var x, y;
 
-    console.log($this.position().top);
+    console.log("position.top: " + $this.position().top + " css.margin-top: " + $this.css("margin-top"));
 
     y = $this.position().top + $this.height();
     x = Math.sqrt(y*height - Math.pow(y, 2));
