@@ -8,9 +8,9 @@ $("#about .section-content > .chat-bubble").each(function(){
     var x, y;
 
     y = $this.position().top + $this.height();
-    x = Math.sqrt(y*height - Math.pow(y, 2)) + 16*4;
+    x = Math.sqrt(y*height - Math.pow(y, 2)) / 16;
 
-    $this.css("margin-left", x + "px");
+    $this.css("margin-left", x + 2 + "em");
 });
 
 // ---------------------------------------------------------------- Availability
@@ -19,12 +19,10 @@ $("#availability .integration-code").each(function(){
     var $this = $(this);
     $this.css("width", 3.99 + "em");
     $this.css("padding-left", 0  + "em");
-    $this.css("opacity", 0);
 });
 
 $("#availability .integration-slider").mouseenter(function(){
     var integrationCode = $(this).find(".integration-code");
-    integrationCode.css("opacity", 1);
     integrationCode.animate({
         "width": "100%",
         "padding-left": "4.5em"
@@ -36,9 +34,7 @@ $("#availability .integration-slider").mouseleave(function(){
     integrationCode.animate({
         "width": "3.99em",
         "padding-left": "0em",
-        "opacity": "0"
         }, 400);
-    //integrationCode.css("opacity", 0);
 });
 
 // ---------------------------------------------------------------- Byte Training
