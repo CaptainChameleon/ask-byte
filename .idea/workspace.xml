@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2782696-0b1e-4abc-9513-ef45a0917f2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Byte/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Byte/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Byte/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+            <state relative-caret-position="-777">
+              <caret line="58" column="54" lean-forward="true" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -68,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="-1292">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -77,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="583" column="66" selection-start-line="583" selection-start-column="66" selection-end-line="583" selection-end-column="66" />
+            <state relative-caret-position="323">
+              <caret line="301" column="20" selection-start-line="301" selection-start-column="20" selection-end-line="301" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -147,11 +149,11 @@
         <option value="$PROJECT_DIR$/ask_byte/file_utils.py" />
         <option value="$PROJECT_DIR$/ask_byte/admin.py" />
         <option value="$PROJECT_DIR$/ask_byte/view_utils.py" />
-        <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" />
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html" />
         <option value="$PROJECT_DIR$/ask_byte/views.py" />
-        <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" />
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html" />
+        <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" />
+        <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" />
         <option value="$PROJECT_DIR$/Byte/settings.py" />
       </list>
     </option>
@@ -218,6 +220,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12631579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -444,20 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="583" column="66" selection-start-line="583" selection-start-column="66" selection-end-line="583" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask_byte/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -491,10 +480,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="301" column="20" selection-start-line="301" selection-start-column="20" selection-end-line="301" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Byte/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+        <state relative-caret-position="-777">
+          <caret line="58" column="54" lean-forward="true" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
         </state>
       </provider>
     </entry>
