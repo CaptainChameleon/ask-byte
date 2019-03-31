@@ -1,7 +1,7 @@
 
 // ---------------------------------------------------------------- About
 
-$("body").children().css( "maxWidth", screen.width + "px" );
+//$("body").children().css( "maxWidth", screen.width + "px" );
 $("#about .section-content > .chat-bubble").each(function(){
     var $this = $(this);
     var height = $this.parent().height();
@@ -19,10 +19,12 @@ $("#availability .integration-code").each(function(){
     var $this = $(this);
     $this.css("width", 3.99 + "em");
     $this.css("padding-left", 0  + "em");
+    $this.css("opacity", 0);
 });
 
 $("#availability .integration-slider").mouseenter(function(){
     var integrationCode = $(this).find(".integration-code");
+    integrationCode.css("opacity", 1);
     integrationCode.animate({
         "width": "100%",
         "padding-left": "4.5em"
@@ -31,6 +33,7 @@ $("#availability .integration-slider").mouseenter(function(){
 
 $("#availability .integration-slider").mouseleave(function(){
     var integrationCode = $(this).find(".integration-code");
+    integrationCode.css("opacity", 0);
     integrationCode.animate({
         "width": "3.99em",
         "padding-left": "0em"
