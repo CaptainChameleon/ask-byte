@@ -9,13 +9,11 @@ from .view_utils import *
 from .models import *
 
 
-@cache_page(0)
-# @cache_page(60 * 60 * 12)
+# @cache_page(0)
+@cache_page(60 * 60 * 12)
 def index(request):
     question_parent_cats = QuestionCategory.objects.filter(parent_category__isnull=True).order_by('pk')
     category_tree = generate_html_collapsible_tree(question_parent_cats)
-    # category_tree = get_category_tree(question_parent_cats)
-    # category_tree = question_parent_cats.values_list()
     template = loader.get_template('ask_byte/index.html')
     context = {'category_tree': category_tree}
     return HttpResponse(template.render(context, request))
@@ -28,7 +26,6 @@ def question_input(request):
     if 'question-cat' not in post_data.keys() or 'question-text' not in post_data.keys():
         return JsonResponse({'success': False, 'fishy': True})
 
-    # AttributeError: 'NoneType' object has no attribute 'split'
     question_text = " ".join(post_data['question-text'].split())
     question_cat_id = post_data['question-cat']
 
