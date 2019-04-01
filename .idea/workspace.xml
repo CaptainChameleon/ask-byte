@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2782696-0b1e-4abc-9513-ef45a0917f2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Byte/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Byte/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ask_byte/static/ask_byte/Images/Byte-suspicious.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/static/ask_byte/Images/Byte-suspicious.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

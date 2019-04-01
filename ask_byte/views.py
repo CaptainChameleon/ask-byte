@@ -9,8 +9,8 @@ from .view_utils import *
 from .models import *
 
 
-# @cache_page(0)
-@cache_page(60 * 60 * 12)
+@cache_page(0)
+# @cache_page(60 * 60 * 12)
 def index(request):
     question_parent_cats = QuestionCategory.objects.filter(parent_category__isnull=True)
     category_tree = generate_html_collapsible_tree(question_parent_cats)
