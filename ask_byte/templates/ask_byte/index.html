@@ -18,8 +18,8 @@
 {% block main %}
 <section id="about" class="primary">
     <div class="section-content">
-        <div class="section-header">
-            <h2>¿Byte?</h2>
+        <header>
+            <h1>¿Byte?</h1>
             <div class="byte-avatar">
                 <div class="chat-bubble left-down">
                     <div class="chat-bubble-content">
@@ -28,7 +28,7 @@
                 </div>
                 <img src="{% static 'ask_byte/Images/Byte.svg' %}">
             </div>
-        </div>
+        </header>
         <div class="chat-bubble right-down no-border">
             <div class="chat-bubble-content">
                 <p>¡Hola! Me llamo Byte y soy un <a href="https://es.wikipedia.org/wiki/Bot_conversacional">bot conversacional</a>, también conocido como <i>chatbot</i>.</p>
@@ -73,9 +73,9 @@
 </section>
 
 <section id="availability" class="primary">
-    <div class="section-header">
-        <h2>Me podrás encrontrar en:</h2>
-    </div>
+    <header>
+        <h1>Me podrás encrontrar en:</h1>
+    </header>
     <div class="section-content">
         <div class="integration-slider">
             <div class="logo-container">
@@ -105,22 +105,22 @@
 </section>
 
 <section id="training" class="primary">
-    <div class="section-header">
+    <header>
         <div class="byte-avatar">
             <img src="{% static 'ask_byte/Images/Byte.svg' %}" width="100" height="100">
         </div>
         <div class="chat-bubble down no-border">
             <div class="chat-bubble-content">
-                <h2>¡Ayúdame a entrenar!</h2>
+                <h1>¡Ayúdame a entrenar!</h1>
             </div>
         </div>
-    </div>
+    </header>
     <div class="section-content">
         {% if category_tree %}
             <section id="instructions" class="tooltip">
-                <div class="section-header">
-                    <h3>Instrucciones</h3>
-                </div>
+                <header>
+                    <h2>Instrucciones</h2>
+                </header>
                 <div class="section-content">
                     <div class="text-wrapper">
                         <p>Selecciona una categoría y escribe cualquier pregunta o solicitud que se te ocurra y esté relacionada. Imagina que estás hablando con un profesor o un compañero.</p>
@@ -167,9 +167,9 @@
 </section>
 
 <section id="contact" class="primary">
-    <div class="section-header">
-        <h2>Contacto</h2>
-    </div>
+    <header>
+        <h1>Contacto</h1>
+    </header>
     <div class="section-content">
         <a href="mailto:byte.mcbit@gmail.com">byte.mcbit@gmail.com</a>
     </div>
