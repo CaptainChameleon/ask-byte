@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2782696-0b1e-4abc-9513-ef45a0917f2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="275" column="21" selection-start-line="275" selection-start-column="21" selection-end-line="275" selection-end-column="21" />
+            <state relative-caret-position="282">
+              <caret line="298" column="24" selection-start-line="298" selection-start-column="24" selection-end-line="298" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -98,8 +98,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="-434">
               <caret line="131" column="126" selection-start-line="131" selection-start-column="121" selection-end-line="131" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="31" column="102" selection-start-line="31" selection-start-column="102" selection-end-line="31" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -166,14 +175,14 @@
         <option value="$PROJECT_DIR$/templates/admin/ask_byte/app_index.html" />
         <option value="$PROJECT_DIR$/ask_byte/file_format_utils.py" />
         <option value="$PROJECT_DIR$/ask_byte/file_utils.py" />
-        <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html" />
         <option value="$PROJECT_DIR$/ask_byte/admin.py" />
         <option value="$PROJECT_DIR$/ask_byte/view_utils.py" />
         <option value="$PROJECT_DIR$/ask_byte/views.py" />
         <option value="$PROJECT_DIR$/Byte/settings.py" />
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html" />
-        <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" />
         <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" />
+        <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" />
+        <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html" />
       </list>
     </option>
   </component>
@@ -496,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask_byte/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -530,10 +532,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html">
+    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="131" column="126" selection-start-line="131" selection-start-column="121" selection-end-line="131" selection-end-column="126" />
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="298" column="24" selection-start-line="298" selection-start-column="24" selection-end-line="298" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -547,17 +556,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js">
+    <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="-434">
+          <caret line="131" column="126" selection-start-line="131" selection-start-column="121" selection-end-line="131" selection-end-column="126" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css">
+    <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="275" column="21" selection-start-line="275" selection-start-column="21" selection-end-line="275" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="31" column="102" selection-start-line="31" selection-start-column="102" selection-end-line="31" selection-end-column="102" />
         </state>
       </provider>
     </entry>
