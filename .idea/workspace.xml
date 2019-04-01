@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2782696-0b1e-4abc-9513-ef45a0917f2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask_byte/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -72,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="119">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -90,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="298" column="19" selection-start-line="298" selection-start-column="19" selection-end-line="298" selection-end-column="19" />
+            <state relative-caret-position="289">
+              <caret line="275" column="21" selection-start-line="275" selection-start-column="21" selection-end-line="275" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -169,12 +168,12 @@
         <option value="$PROJECT_DIR$/ask_byte/file_utils.py" />
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html" />
         <option value="$PROJECT_DIR$/ask_byte/admin.py" />
-        <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" />
         <option value="$PROJECT_DIR$/ask_byte/view_utils.py" />
         <option value="$PROJECT_DIR$/ask_byte/views.py" />
         <option value="$PROJECT_DIR$/Byte/settings.py" />
         <option value="$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html" />
         <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css" />
+        <option value="$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js" />
       </list>
     </option>
   </component>
@@ -497,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -538,16 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ask_byte/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask_byte/templates/ask_byte/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -555,10 +537,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ask_byte/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ask_byte/static/ask_byte/Styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="298" column="19" selection-start-line="298" selection-start-column="19" selection-end-line="298" selection-end-column="19" />
+        <state relative-caret-position="289">
+          <caret line="275" column="21" selection-start-line="275" selection-start-column="21" selection-end-line="275" selection-end-column="21" />
         </state>
       </provider>
     </entry>

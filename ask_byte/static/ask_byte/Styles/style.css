@@ -296,6 +296,7 @@ main a:hover:before {
 }
 
 #about > header {
+    align-self: initial;
     display: block;
     position: absolute;
     top: 50%;
