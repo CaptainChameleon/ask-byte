@@ -204,10 +204,6 @@ section > header {
     text-align: center;
 }
 
-section.primary > header {
-    /* margin-top: 2em; */
-}
-
 .section-content {
     align-self: center;
     width: 100%;
@@ -276,14 +272,14 @@ main a:hover:before {
 
 #about {
     padding: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 #about .section-content {
     display: block;
     width: 100%;
     background-color: #037cf4ff;
-    position: relative;
-    overflow: hidden;
 }
 
 /* -------------------------------------------------------------- DESKTOP !! --------------------- */
@@ -300,6 +296,7 @@ main a:hover:before {
 }
 
 #about > header {
+    display: block;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
