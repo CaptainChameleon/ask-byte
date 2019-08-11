@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        {% block meta %}
+        {% endblock %}
+        {% load static %}
+        <link rel="shortcut icon" type="image/png" href="{% static 'ask_byte/Images/favicon.png' %}">
+        <link rel="stylesheet" href="{% static 'ask_byte/Styles/style.css' %}">
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+
+    <body>
+        <header>
+            {% block header %}
+            <div id="logo">
+                <h1><a href="{% url 'index' %}">AskByte!</a></h1>
+            </div>
+            <nav id="menu">
+                {% block menu %}
+                {% endblock %}
+            </nav>
+            {% endblock %}
+        </header>
+         <main role="main">
+                {% block main %}
+                {% endblock %}
+         </main>
+
+         <footer>
+             {% block footer %}
+             <a href="https://jquery.com/"><img src="{% static '/ask_byte/Images/JQuery.svg' %}"  width="124" height="45"></a>
+             <a href="https://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangomade124x25.gif" border="0" alt="Made with Django." title="Made with Django." /></a>
+             <a href="https://www.heroku.com"><img src="{% static '/ask_byte/Images/built-on-heroku.svg' %}" width="124" height="45"></a>
+             {% endblock %}
+         </footer>
+    </body>
+    <script type="text/javascript" src="{% static '/ask_byte/Scripts/jquery.js' %}"></script>
+    {% block scripts %}{% endblock %}
+</html>
